@@ -67,6 +67,7 @@ Melatih ulang model (butuh dataset TrashNet `dataset-resized` di folder yang sam
 
 - Dataset: TrashNet oleh Gary Thung dan Mindy Yang
 - Model dasar: MobileNetV2 (torchvision)
-- Dibuat oleh Farel (@farelganteng63)
+- Dibuat oleh Farel [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/farelandreassitohang)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@FAREL ANDREAS)
 
 Masukan sangat diterima, terutama foto sampah dunia nyata yang salah ditebak.

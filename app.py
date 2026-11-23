@@ -52,11 +52,9 @@ st.set_page_config(page_title="Pilah.in", page_icon="♻️")
 st.title("Pilah.in")
 st.write("Foto sampahmu, lalu cari tahu jenis dan cara menanganinya.")
 
-tab_upload, tab_camera = st.tabs(["Upload foto", "Ambil foto"])
-with tab_upload:
-    uploaded = st.file_uploader("Pilih gambar", type=["jpg", "jpeg", "png"])
-with tab_camera:
-    camera = st.camera_input("Arahkan kamera ke sampah")
+uploaded = st.file_uploader("Pilih gambar", type=["jpg", "jpeg", "png"])
+use_camera = st.toggle("Pakai kamera")
+camera = st.camera_input("Arahkan kamera ke sampah") if use_camera else None
 
 source = uploaded or camera
 if source is not None:
